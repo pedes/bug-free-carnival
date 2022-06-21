@@ -29,7 +29,7 @@
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
 				<extensions>true</extensions>
-				<version>3.6.2</version>
+				<version>3.6.0</version>
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
@@ -42,6 +42,7 @@
 						<persistentQueues>false</persistentQueues>
 						<workers>1</workers>
 						<workerType>SMALL</workerType>
+						<businessGroupId>36124fc7-bd49-4aea-9e7c-c285aa862346</businessGroupId>
 						<properties>
 							<anypoint.platform.gatekeeper>disabled</anypoint.platform.gatekeeper>
 						</properties>
